@@ -1,0 +1,18 @@
+[device]
+id = "a3634171-75d6-4d09-ac80-844ec3c133db"
+name = "Milesight WS302"
+description = "LoRaWAN® Sound Level Sensor"
+
+[[device.firmware]]
+version = "1.2"
+profiles = [
+    "AS923-1_0_3.toml",
+    "AU915-1_0_3.toml",
+    "EU868-1_0_3.toml",
+    "US915-1_0_3.toml",
+]
+codec = "ws302.js"
+
+[device.metadata]
+product_url = "https://www.milesight.com/iot/product/lorawan-sensor/ws302"
+documentation_url = "https://www.milesight.com/iot/product/lorawan-sensor/ws302"
